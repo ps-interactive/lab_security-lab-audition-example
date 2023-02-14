@@ -1,8 +1,11 @@
-# Capturing and Filtering Packets with Wireshark
-## Lab Description: In this challenge, you will capture and filter packets in real time with Wireshark.
+# Intrusion Analysis of Virtual Machine 
+## Lab Description: In this challenge, you will analyze a packet capture and determine how the hackers gained access.
 
-You are under high alert ever since you found out that the Dark Kittens have infiltrated your network, yet again. One the company employees has complained of strange things happening on their work machine. Your job is to go in and determine if there's any suspicious network traffic on that computer.
-First things first, though, we need to finish configuring Wireshark. 
+You are the senior intrusion analyst for Globomantics. After the recent security breach, the CTO has asked for a post mortem of the event and determine how the hackers were able to gain access to the network. 
+
+The security team has made an exact copy of the server that was breached and replicated it as a virtual machine. The network capstures that were taken during the event are located on the virtual machine. It is your job to analyse that packet capture and determine the method used to gain access to the server. 
+
+
 
 1. Click on the **Applications** button in the top-left and open the **Terminal Emulator**.
 2. In the console window, type `./wireshark-configure.sh` and select **Yes** at the prompt.
